@@ -1,10 +1,5 @@
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package base64;
+Se deben importar las siguientes librerias:
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -13,18 +8,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
-
 import javax.xml.bind.DatatypeConverter;
-//import javax.xml.bind.DatatypeConverter;
-
-//import org.apache.commons.codec.binary.Base64;
-
-
-/**
- *
- * @author support
- */
-public class Base64 {
 
     public static void main(String[] args) throws IOException{
         
@@ -40,11 +24,8 @@ public class Base64 {
         
     }
     
-    /**
-     * Metodo para convertir img a Base64
-     * @param img
-     * @return String de la img en formato Base64
-     */
+ Metodo para convertir img a Base64
+     
     
     public static String ImgToBase64(File img){
         
@@ -65,12 +46,8 @@ public class Base64 {
         
         return encodedBase64;
     }
-    
-    /**
-     * Metodo para crear archivo TXT apartir de una cadena recibida
-     * @param cadena
-     * @throws IOException 
-     */
+ 
+ Metodo para crear archivo TXT apartir de una cadena recibida
     
     public static void CrearTXT(String cadena) throws IOException{
         String ruta = "C:/fotos_rtm/c.txt";
